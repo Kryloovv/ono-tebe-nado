@@ -11,13 +11,7 @@
   justify-self: end;
 }
 
-.address__link-email {
-  display: inline-block;
-  text-decoration: none;
-  border-bottom: 1px solid #000;
-}
-
-.address__link-telephone {
+.address__link {
   display: inline-block;
   text-decoration: none;
   border-bottom: 1px solid #000;
