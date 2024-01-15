@@ -32,7 +32,7 @@
   padding: 92px 49px 96px 51px;
   display: grid;
   align-items: center;
-  grid-template-columns: repeat(3, 3fr);
+  grid-template-columns: 1fr min-content 1fr;
 }
 
 .header__links-list {
@@ -230,10 +230,6 @@
   column-gap: 25px;
 }
 
-.about__column:last-child {
-  align-self: end;
-}
-
 .about__logo {
   display: flex;
   width: 240px;
@@ -254,7 +250,7 @@
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
-  margin-bottom: 100px;
+  margin: 100px 0;
 }
 
 .about__text {
